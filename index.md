@@ -5,6 +5,14 @@ layout: default
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 # Projects
+
+| Project                   | Skills            | Tools | Link                              |
+|:--------------------------|:------------------|:------|:----------------------------------|
+| Active Directory Home Lab | good swedish fish | nice  | [](./another-page.html)           |
+| out of stock              | good and plenty   | nice  |nice                               |
+| ok                        | good `oreos`      | hmm   |nice                               |
+| ok                        | good `zoute` drop | yumm  |nice                               |  
+
 [curlie api requests](./another-page.html).
 
 [local llm with lmstudio](./another-page.html).
@@ -15,9 +23,14 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Certifications
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+| Certification        |Completed          | Link  |
+|:---------------------|:------------------|:------|
+| Google Cybersecurity | good swedish fish | nice  |
+| xxxx | xxxxxx   | xxxx  |
+| xxx         | xxxx     | xxx   |
+
 
 ## Header 2
 
