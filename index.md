@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Hi, im Egor and this is my Cybersecurity Portfolio. I am currently searching for a challenging position alongside my studies that leverages my _skills_ and allows me to contribute to the dynamic field of cybersecurity.
+Hi, im Egor and this is my Cybersecurity Portfolio. I am currently searching for a challenging position alongside my studies that leverages my observation and communication skills and allows me to contribute to the dynamic field of cybersecurity.
 
 I am _eagor_ to join a forward-thinking organisation where my enthusiasm for technology can make an impact.
 
