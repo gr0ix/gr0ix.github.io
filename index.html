@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Security Portfolio</title>
+<meta name="description" content="Cybersecurity student portfolio — projects, CTF writeups, and certifications.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="case-header" id="top">
+  <div class="wrap case-header__inner">
+    <a href="#top" class="case-header__logo">
+      <span class="mono">FILE//</span>YOUR_NAME
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#writeups">Writeups</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact" class="primary-nav__cta">Contact</a>
+    </nav>
+  </div>
+  <div class="case-header__stamp mono">CASE FILE — STATUS: <span class="status-dot"></span>ACTIVE</div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <p class="eyebrow mono">CASE NO. 2026-0417 · OPENED AUG 2026</p>
+    <h1 class="hero__name">Your Name<span class="cursor" aria-hidden="true"></span></h1>
+    <p class="hero__role">Security Student &amp; Aspiring Analyst</p>
+    <p class="hero__lede">
+      I'm building hands-on skills across offensive and defensive security —
+      breaking things in home labs, patching what I break, and documenting
+      every case along the way. This site is the working file.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#projects">View Case Files</a>
+      <a class="btn btn--ghost" href="assets/resume-placeholder.pdf" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <h2 class="section__title"><span class="mono section__tag">EXHIBIT A</span>Analyst Notes</h2>
+
+      <div class="notes">
+        <p>
+          I'm currently studying [your program / self-taught path], working
+          toward a career in <span class="redact" tabindex="0">threat detection and incident response<span class="redact__bar" aria-hidden="true"></span></span>.
+          Most weeks you'll find me in a home lab, on TryHackMe or HackTheBox,
+          or reading through <span class="redact" tabindex="0">other people's disclosed writeups to learn new techniques<span class="redact__bar" aria-hidden="true"></span></span>.
+        </p>
+        <p>
+          I like security because it rewards curiosity — there's always one
+          more layer to pull back. My current focus areas are
+          <span class="redact" tabindex="0">network fundamentals, Linux hardening, and basic malware analysis<span class="redact__bar" aria-hidden="true"></span></span>,
+          and I'm slowly building toward <span class="redact" tabindex="0">a SOC analyst or pentesting role<span class="redact__bar" aria-hidden="true"></span></span>.
+        </p>
+        <p class="notes__hint mono">↑ hover or tab into the redacted lines</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--tan" id="skills">
+    <div class="wrap">
+      <h2 class="section__title"><span class="mono section__tag">EXHIBIT B</span>Evidence Log — Tools &amp; Techniques</h2>
+      <p class="section__intro">A running inventory. Bars are self-rated, not certified — this file is a work in progress by design.</p>
+
+      <div class="log-grid">
+
+        <article class="log-card">
+          <h3 class="log-card__title mono">Offensive</h3>
+          <ul class="skill-list">
+            <li><span>Nmap / recon</span><span class="bar"><i style="--w:60%"></i></span></li>
+            <li><span>Burp Suite</span><span class="bar"><i style="--w:45%"></i></span></li>
+            <li><span>Metasploit</span><span class="bar"><i style="--w:40%"></i></span></li>
+            <li><span>Web app exploitation</span><span class="bar"><i style="--w:50%"></i></span></li>
+          </ul>
+        </article>
+
+        <article class="log-card">
+          <h3 class="log-card__title mono">Defensive</h3>
+          <ul class="skill-list">
+            <li><span>Log analysis</span><span class="bar"><i style="--w:55%"></i></span></li>
+            <li><span>Splunk / SIEM basics</span><span class="bar"><i style="--w:40%"></i></span></li>
+            <li><span>Sysmon / Windows events</span><span class="bar"><i style="--w:35%"></i></span></li>
+            <li><span>Incident triage</span><span class="bar"><i style="--w:30%"></i></span></li>
+          </ul>
+        </article>
+
+        <article class="log-card">
+          <h3 class="log-card__title mono">Systems &amp; Networking</h3>
+          <ul class="skill-list">
+            <li><span>Linux administration</span><span class="bar"><i style="--w:65%"></i></span></li>
+            <li><span>TCP/IP fundamentals</span><span class="bar"><i style="--w:60%"></i></span></li>
+            <li><span>Active Directory basics</span><span class="bar"><i style="--w:35%"></i></span></li>
+            <li><span>Firewalls / segmentation</span><span class="bar"><i style="--w:45%"></i></span></li>
+          </ul>
+        </article>
+
+        <article class="log-card">
+          <h3 class="log-card__title mono">Scripting &amp; Tools</h3>
+          <ul class="skill-list">
+            <li><span>Python</span><span class="bar"><i style="--w:55%"></i></span></li>
+            <li><span>Bash</span><span class="bar"><i style="--w:50%"></i></span></li>
+            <li><span>Git / GitHub</span><span class="bar"><i style="--w:60%"></i></span></li>
+            <li><span>Wireshark</span><span class="bar"><i style="--w:45%"></i></span></li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <h2 class="section__title"><span class="mono section__tag">EXHIBIT C</span>Case Files — Projects</h2>
+      <p class="section__intro">Replace these with your own builds. Keep the format — recruiters skim, so lead with what it does and what you learned.</p>
+
+      <div class="case-grid">
+
+        <article class="case-card">
+          <div class="case-card__head">
+            <span class="mono case-card__id">CF-01</span>
+            <span class="stamp stamp--progress">IN PROGRESS</span>
+          </div>
+          <h3>Home Lab SOC</h3>
+          <p>A small virtualized lab (Splunk + Sysmon + a couple of vulnerable VMs) for generating and hunting through real attack telemetry instead of just reading about it.</p>
+          <ul class="tag-list">
+            <li>Splunk</li><li>Sysmon</li><li>VirtualBox</li>
+          </ul>
+          <div class="case-card__links">
+            <a href="#" class="link-arrow">GitHub repo →</a>
+            <a href="#" class="link-arrow">Write-up →</a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-card__head">
+            <span class="mono case-card__id">CF-02</span>
+            <span class="stamp stamp--closed">CLOSED</span>
+          </div>
+          <h3>Python Port &amp; Service Scanner</h3>
+          <p>A lightweight recon tool that sweeps a subnet, fingerprints open services, and outputs a clean report — built to understand what tools like Nmap are actually doing under the hood.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>Sockets</li><li>Threading</li>
+          </ul>
+          <div class="case-card__links">
+            <a href="#" class="link-arrow">GitHub repo →</a>
+            <a href="#" class="link-arrow">Demo →</a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-card__head">
+            <span class="mono case-card__id">CF-03</span>
+            <span class="stamp stamp--progress">IN PROGRESS</span>
+          </div>
+          <h3>Phishing Awareness Microsite</h3>
+          <p>A short interactive training page that walks through five real-world phishing patterns, built to practice thinking like an attacker crafting a pretext.</p>
+          <ul class="tag-list">
+            <li>HTML/CSS/JS</li><li>Social engineering</li>
+          </ul>
+          <div class="case-card__links">
+            <a href="#" class="link-arrow">GitHub repo →</a>
+            <a href="#" class="link-arrow">Live site →</a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-card__head">
+            <span class="mono case-card__id">CF-04</span>
+            <span class="stamp stamp--closed">CLOSED</span>
+          </div>
+          <h3>Vulnerable VM Walkthrough Series</h3>
+          <p>Documented, step-by-step compromises of intentionally vulnerable machines — enumeration through privilege escalation — written for other beginners.</p>
+          <ul class="tag-list">
+            <li>Linux</li><li>Privilege escalation</li><li>Documentation</li>
+          </ul>
+          <div class="case-card__links">
+            <a href="#" class="link-arrow">GitHub repo →</a>
+            <a href="#writeups" class="link-arrow">See writeups →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WRITEUPS ============ -->
+  <section class="section section--tan" id="writeups">
+    <div class="wrap">
+      <h2 class="section__title"><span class="mono section__tag">EXHIBIT D</span>Incident Log — CTF &amp; Lab Writeups</h2>
+      <p class="section__intro">One row per room/box solved. Link each to a full writeup — even a short one shows how you think.</p>
+
+      <div class="table-wrap">
+        <table class="log-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Target</th>
+              <th>Category</th>
+              <th>Difficulty</th>
+              <th>Writeup</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mono">2026-06</td>
+              <td>HTB — "Meow"</td>
+              <td>Enumeration / Telnet</td>
+              <td><span class="diff diff--easy">Easy</span></td>
+              <td><a href="#" class="link-arrow">Read →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">2026-06</td>
+              <td>TryHackMe — "Blue"</td>
+              <td>EternalBlue / SMB</td>
+              <td><span class="diff diff--easy">Easy</span></td>
+              <td><a href="#" class="link-arrow">Read →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">2026-07</td>
+              <td>TryHackMe — "Ignite"</td>
+              <td>Web / CVE exploitation</td>
+              <td><span class="diff diff--med">Medium</span></td>
+              <td><a href="#" class="link-arrow">Read →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">2026-08</td>
+              <td>HTB — "Bashed"</td>
+              <td>Web shell / cron privesc</td>
+              <td><span class="diff diff--med">Medium</span></td>
+              <td><a href="#" class="link-arrow">Read →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CREDENTIALS ============ -->
+  <section class="section" id="credentials">
+    <div class="wrap">
+      <h2 class="section__title"><span class="mono section__tag">EXHIBIT E</span>Chain of Custody — Education &amp; Certifications</h2>
+
+      <ul class="custody-list">
+        <li>
+          <span class="custody-list__date mono">2024 — Present</span>
+          <span class="custody-list__body">
+            <strong>B.S./A.S. in [Your Field]</strong> — [Your School]
+          </span>
+          <span class="stamp stamp--progress">IN PROGRESS</span>
+        </li>
+        <li>
+          <span class="custody-list__date mono">Target: 2026</span>
+          <span class="custody-list__body">
+            <strong>CompTIA Security+</strong> — studying now
+          </span>
+          <span class="stamp stamp--progress">IN PROGRESS</span>
+        </li>
+        <li>
+          <span class="custody-list__date mono">2026</span>
+          <span class="custody-list__body">
+            <strong>TryHackMe</strong> — Top X% / [rank], [N] rooms completed
+          </span>
+          <span class="stamp stamp--closed">VERIFIED</span>
+        </li>
+        <li>
+          <span class="custody-list__date mono">2026</span>
+          <span class="custody-list__body">
+            <strong>Hack The Box</strong> — [rank/tier], [N] machines owned
+          </span>
+          <span class="stamp stamp--closed">VERIFIED</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--dark" id="contact">
+    <div class="wrap contact">
+      <h2 class="section__title section__title--light"><span class="mono section__tag">EXHIBIT F</span>Close the Case</h2>
+      <p class="contact__lede">
+        Open to internships, entry-level roles, and anyone who wants to talk
+        about a box they got stuck on. Reach out.
+      </p>
+      <div class="contact__links">
+        <a class="btn btn--primary" href="mailto:you@example.com">Email me</a>
+        <a class="btn btn--ghost btn--ghost-light" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost btn--ghost-light" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer mono">
+  <div class="wrap site-footer__inner">
+    <span>CASE FILE #2026-0417 — RECORD CLOSED <span id="year"></span></span>
+    <span>Built with HTML, CSS &amp; a home lab.</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
