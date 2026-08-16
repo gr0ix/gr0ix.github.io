@@ -281,21 +281,22 @@ img { max-width: 100%; display: block; }
    =========================================================== */
 .notes { max-width: 68ch; font-size: 1.08rem; }
 .redact {
-  position: relative;
   cursor: help;
   color: var(--ink);
-}
-.redact__bar {
-  position: absolute;
-  inset: 2px -2px;
-  background: var(--ink);
+  padding: 0 2px;
+  margin: 0 -2px;
   border-radius: 2px;
-  transition: transform 0.35s cubic-bezier(.7,0,.3,1);
-  transform-origin: right;
+  background-image: linear-gradient(var(--ink), var(--ink));
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 100% 100%;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  transition: background-size 0.35s cubic-bezier(.7,0,.3,1);
 }
-.redact:hover .redact__bar,
-.redact:focus .redact__bar {
-  transform: scaleX(0);
+.redact:hover,
+.redact:focus {
+  background-size: 0% 100%;
 }
 .notes__hint {
   font-size: 0.78rem;
