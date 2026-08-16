@@ -510,7 +510,7 @@ img { max-width: 100%; display: block; }
   }
   .primary-nav.is-open { max-height: 340px; }
   .primary-nav a { width: 100%; padding: 14px 24px; }
-  .primary-nav__cta { margin: 10px 24px; width: fit-content; }
+  .primary-nav a.primary-nav__cta { margin: 10px 24px; width: fit-content; }
 
   .hero { padding: 64px 24px 56px; }
   .section { padding: 56px 0; }
