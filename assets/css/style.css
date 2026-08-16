@@ -277,7 +277,9 @@ img { max-width: 100%; display: block; }
 }
 
 /* ===========================================================
-   ABOUT / REDACTION
+   ABOUT / REDACTION (currently unused — wrap text in <span class="redact"
+   tabindex="0">…</span> in index.html to bring the reveal-on-hover
+   effect back)
    =========================================================== */
 .notes { max-width: 68ch; font-size: 1.08rem; }
 .redact {
@@ -297,12 +299,6 @@ img { max-width: 100%; display: block; }
 .redact:hover,
 .redact:focus {
   background-size: 0% 100%;
-}
-.notes__hint {
-  font-size: 0.78rem;
-  color: var(--ink-soft);
-  opacity: 0.7;
-  margin-top: 24px;
 }
 
 /* ===========================================================

@@ -36,8 +36,7 @@ git push -u origin main
 Everything is in `index.html` — no templating, just edit the text directly.
 
 - **Your name / title** — hero section near the top.
-- **About** (`#about`) — swap in your real bio. The redacted lines
-  (black bars that reveal on hover) are a fun detail; keep or remove them.
+- **About** (`#about`) — swap in your real bio.
 - **Skills** (`#skills`) — edit the `--w` percentage on each `<i>` bar
   (0–100) to reflect your own self-rated levels.
 - **Projects** (`#projects`) — replace the four placeholder "case files"
